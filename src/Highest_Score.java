@@ -1,5 +1,14 @@
-import java.util.Scanner;
+/**
+ * GNU GENERAL PUBLIC LICENSE
+ Version 3, 29 June 2007
+ Copyright (C) 2014  Author Akeem Prince Olass.
+ Everyone is permitted to copy and distribute verbatim copies
+ of this license document, but changing it is not allowed.
+ *
 
+ */
+import java.util.Scanner;
+/**Adds two random numbers*/
 public class Highest_Score {
     public static void main(String[] args) {
         /** Prompts user to enter number of students, each students name and score
@@ -33,13 +42,13 @@ public class Highest_Score {
 
 
 
-
-    /** Computes the highest score by comparing the new score with the current highest
+/** Computes the highest score by comparing the new score with the current highest
      * score
-     * @param name
-     * @param score
-     * @param lrgscore
+     * @param name name of student entered
+     * @param score score of student of name
+     * @param lrgscore it holds the score of the previous student initialize to zero for first entry
      */
+
 
     public static float H_score(String name, float score,float lrgscore, String prev_name) {
         float hscore = lrgscore;
